@@ -81,13 +81,6 @@ Result:
 
 Output: `output/Part2/packing.gif` and `output/Part2/Packing_Fig.png`
 
-## Limits
-
-- Part 2 is greedy, not optimal. Optimal 3D packing is NP-hard.
-- Rotations are allowed. To keep the given orientation, use `[tuple(it["dims"])]` instead of `permutations(it["dims"])` in `part2_pack.py`.
-- The support rule is strict (100% of the base).
-- The OBB of a curved shape is looser than the shape. This is expected.
-
 ## Videos
 
 [Google Drive folder](https://drive.google.com/drive/folders/1ZQolr3OK-Wd-4AquheH36nCB2NmsoQvK)
